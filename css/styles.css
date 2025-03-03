@@ -4,6 +4,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
+/* Remove underline for links */
+a {
+    text-decoration: none;
+}
+
+/* Remove dots for ul elements */
+ul {
+    list-style: none;
+}
+
 /* B6, B8, B9 */
 .container {
     width: 1158px;
@@ -29,14 +39,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .logo {
     margin-right: 76px;
+    display: block;
 }
 .nav-menu {
     display: flex;
     gap: 40px;
 }
-.nav-menu li {
-    margin-right: 40px;
-}
+
 .nav-menu li:last-child {
     margin-right: 0;
 }
@@ -63,9 +72,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Portfolio card styling */
 .portfolio-item {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+
 }
 
 /* General styling */
@@ -74,7 +81,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-main, footer {
+footer {
     padding: 0 15px;
 }
 img {
@@ -164,7 +171,7 @@ nav ul {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
-    margin: 20px auto 0;
+    margin: 48px auto 0;
 }
 
 .order-btn:hover,
@@ -199,7 +206,6 @@ nav ul {
 
 .features-item {
     background-color: #FFFFFF;
-    text-align: center;
     width: calc((100% - 72px) / 4);
 }
 
@@ -263,12 +269,10 @@ nav ul {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin-bottom: 72px;
 }
 
 footer {
     background-color: #2e2f42;
-    text-align: center;
 }
 
 .footer-container {
@@ -296,7 +300,6 @@ footer {
 
 /* Portfolio section styling */
 .portfolio {
-    background-color: #F4F4FD;
 }
 
 .section-title {
@@ -320,7 +323,6 @@ footer {
 
 .portfolio-item {
     background-color: #FFFFFF;
-    text-align: center;
     width: calc((100% - 48px) / 3);
 }
 
@@ -353,7 +355,6 @@ footer {
 /* Footer styling */
 footer {
     background-color: #2e2f42;
-    text-align: center;
     padding: 100px 0;
 }
 
@@ -378,4 +379,5 @@ footer {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     text-transform: lowercase;
+    max-width: 264px;
 }
