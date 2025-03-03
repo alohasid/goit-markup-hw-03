@@ -117,6 +117,7 @@ nav ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
+    display: block;
 }
 
 .nav-link:hover,
